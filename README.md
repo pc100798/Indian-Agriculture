@@ -1,52 +1,55 @@
-# Table 1
-![Image 1](public/T1.PNG)
+# Agriculture Data Dashboard
 
-# Table 2
-![Image 2](public/T2.PNG)
+*Table 1: Yearly Crop Production*
+![Table 1](public/T1.PNG)
 
-# Getting Started with Create React App
+*Table 2: Average Crop Data (1950-2020)*
+![Table 2](public/T2.PNG)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project displays agricultural data in two tables using React with TypeScript and Mantine components.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get started with this project, follow the steps below:
 
-### `yarn start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Before you begin, make sure you have the following installed on your system:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Node.js](https://nodejs.org/) (version >= 12.0.0)
+- [Yarn](https://yarnpkg.com/) (latest)
 
-### `yarn test`
+### Clone the Repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the repository to your local machine:
 
-### `yarn build`
+```bash
+git clone <repository-url>
+cd <project-directory>
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Install Dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Navigate into the project directory and install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+yarn install
+```
 
-### `yarn eject`
+### Install Mantine Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Install Mantine components used in the project:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+yarn add @mantine/core @mantine/hooks
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Start the Application
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However, we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Start the development server and open the app in your default browser:
 
-## Learn More
+```bash
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+The app will be available at http://localhost:3000.
